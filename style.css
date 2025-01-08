@@ -35,6 +35,9 @@ body {
 	background-color: var(--white-background);
 	grid-column: 2 / -1;
 	grid-row: 1 / 2;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-template-rows: 10% 1fr;
 }
 
 .main {
