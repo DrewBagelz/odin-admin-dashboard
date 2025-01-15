@@ -47,8 +47,39 @@ body {
 .sidebar-icon {
 	height: 24px;
 	width: 24px;
-	margin-left: 1em;
-	margin-right: 5%;
+}
+
+.side-header {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.side-header > div {
+	justify-self: start;
+}
+
+.side-nav {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.side-nav > div {
+	justify-self: start;
+}
+
+.side-settings {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	justify-items: center;
+	align-items: center;
+}
+
+.side-settings > div {
+	justify-self: start;
 }
 
 .header {
