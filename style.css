@@ -17,6 +17,7 @@ html {
 body {
 	font-family: Roboto, system-ui, "Segoe UI", Helvetica, Arial, sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 16px;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -35,13 +36,17 @@ body {
 	display: grid;
 	grid-auto-rows: max-content;
 	gap: 2em;
+	padding: 0.5em;
+	font-weight: 600;
+}
+
+.side-header {
+	font-size: 1.25rem;
 }
 
 .sidebar-logo {
-	height: 35px;
-	width: 35px;
-	margin-left: 1em;
-	margin-right: 5%;
+	height: 45px;
+	width: 45px;
 }
 
 .sidebar-icon {
@@ -63,6 +68,7 @@ body {
 .side-nav {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	row-gap: 0.75em;
 	justify-items: center;
 	align-items: center;
 }
@@ -74,6 +80,7 @@ body {
 .side-settings {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
+	row-gap: 0.75em;
 	justify-items: center;
 	align-items: center;
 }
