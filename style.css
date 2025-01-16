@@ -23,6 +23,7 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	min-height: 100vh;
+	background-color: var(--gray-background);
 	display: grid;
 	grid-template-columns: 1fr 4fr;
 	grid-template-rows: 1fr 5fr;
@@ -95,11 +96,95 @@ body {
 	grid-row: 1 / 2;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
-	grid-template-rows: 10% 1fr;
+	grid-template-rows: 40% 60%;
+	align-items: center;
+	font-weight: 600;
+	padding-left: 30px;
+	padding-right: 30px;
+	box-shadow: 0px 3px 5px rgb(175, 185, 192);
+}
+
+.search {
+	display: flex;
+	align-items: center;
+}
+
+.searchbar {
+	flex: 1;
+	background-color: var(--gray-background);
+	border: none;
+	border-radius: 12px;
+	height: 1.25rem;
+}
+
+.search > img {
+	height: 20px;
+	width: 20px;
+	padding-right: 8px;
+}
+
+.account {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 7%;
+}
+
+.header-icon {
+	height: 20px;
+	width: 20px;
+}
+
+.small-avatar {
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+}
+
+.welcome {
+	display: grid;
+	grid-template-columns: 7% 93%;
+	grid-template-rows: 1fr 1fr;
+	align-items: center;
+	line-height: 1em;
+	padding: 0.5em;
+}
+
+.large-avatar {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	grid-row: 1 / -1;
+	justify-self: center;
+}
+
+.hi-there {
+	font-size: 0.75rem;
+}
+
+.username {
+	align-self: start;
+	font-size: 1.25rem;
+}
+
+.header-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10%;
+}
+
+.header-buttons > button {
+	background-color: var(--blue-background);
+	color: var(--white-background);
+	border: none;
+	border-radius: 20px;
+	padding: 7px 24px;
+	font-weight: 600;
+	margin-left: 1em;
 }
 
 .main {
-	background-color: var(--gray-background);
 	grid-column: 2 / -1;
 	grid-row: 2 / -1;
 	display: grid;
