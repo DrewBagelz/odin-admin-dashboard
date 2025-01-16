@@ -147,7 +147,6 @@ body {
 	grid-template-rows: 1fr 1fr;
 	align-items: center;
 	line-height: 1em;
-	padding: 0.5em;
 }
 
 .large-avatar {
@@ -169,7 +168,6 @@ body {
 
 .header-buttons {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	gap: 10%;
 }
