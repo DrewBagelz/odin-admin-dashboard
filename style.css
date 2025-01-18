@@ -193,6 +193,7 @@ body {
 .main-left {
 	grid-column: 1 / 2;
 	grid-row: 1 / -1;
+	padding: 0 1em;
 }
 
 .main-right-top {
@@ -212,6 +213,12 @@ body {
 	gap: 2em;
 }
 
+.main-header {
+	font-weight: 600;
+	margin-bottom: 0.5em;
+	margin-top: 1.5em;
+}
+
 .project-card,
 .announcement-card,
 .trending-card {
@@ -221,6 +228,22 @@ body {
 
 .project-card {
 	border-left: solid 0.5em var(--yellow-border);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.5em 1em;
+}
+
+.card-title {
+	font-weight: 600;
+}
+
+.card-text {
+	font-size: 0.9rem;
+}
+
+.card-icons {
+	align-self: end;
 }
 
 .card-icons > img {
