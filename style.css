@@ -256,6 +256,31 @@ body {
 	padding-right: 30px;
 }
 
+.announcement-card {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5em 1.5em;
+}
+
+.announcement {
+	font-size: 0.8rem;
+	border-bottom: solid 2px var(--gray-background);
+	padding: 1em 0;
+}
+
+.announcement-card div:first-child {
+	padding-top: 0;
+}
+
+.announcement div:first-child {
+	font-weight: 600;
+	font-size: 0.9rem;
+}
+
+.announcement:last-child {
+	border: none;
+}
+
 .trending-card {
 	padding: 1em;
 	display: flex;
